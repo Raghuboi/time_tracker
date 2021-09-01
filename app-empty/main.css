@@ -1,0 +1,94 @@
+/**
+ * Your site-wide CSS styles all go in this file
+
+ // INSERT YOUR CODE BELOW THIS LINE
+
+ */
+
+
+/* setting default font size and font family */
+
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* css to the header, background color, svg in no repeat and position as left for the svg */
+
+header {
+    background-color: #356915;
+    width: auto;
+    padding: 10px;
+    background-image: url("timer.svg");
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+/* padding, color and font size for the header title */
+
+#header_title {
+    font-size: 24px;
+    padding-left: 40px;
+    display: inline;
+    color: white;
+}
+
+
+/* base css for nav, setting position to right */
+
+nav {
+    color: white;
+    display: inline;
+    float: right;
+}
+
+
+/* css to elements inside the nav */
+
+nav a {
+    margin: 10px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+
+/* css for anchor tab which is activated upon hovering over */
+
+nav a:hover {
+    background-color: white;
+    opacity: 30%;
+}
+
+
+/* css for selected or current menu with white bg color and text color */
+
+.current_menu:link {
+    background-color: white;
+    color: #356915;
+}
+
+
+/* determining size, position, boarder and padding of content conatainer */
+
+#content_container {
+    width: 800px;
+    border: 2px solid #CDCDCD;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* css for h1, with bg color, text color, margin, allignment and font size */
+
+h1 {
+    background-color: #CDCDCD;
+    color: #343434;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 32px;
+}

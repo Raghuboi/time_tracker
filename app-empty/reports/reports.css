@@ -1,0 +1,51 @@
+/* setting up default font size and font family for the page */
+
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* fiter form content to space between so that the fields and labels are evenly spaced and through out the display */
+
+#reports_filter_form {
+    background-color: #CDCDCD;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+
+/* setting up boarder property and collapsing it so that it could cover 100% size */
+
+#results {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+/* background color for the table row */
+
+#results thead tr {
+    background-color: #CDCDCD;
+}
+
+
+/* css for table datas just for tbody  with center alignment and border and padding */
+
+#results tbody td {
+    text-align: center;
+    border-bottom: 1px solid #CDCDCD;
+    padding: 5px;
+}
+
+
+/* maring for label and option along with color */
+
+#reports_filter_form label,
+#reports_filter_form select {
+    padding: 5px;
+    width: 100%;
+    margin: 0px 10px;
+    color: #343434;
+}

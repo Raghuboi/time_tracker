@@ -1,0 +1,76 @@
+* /*  sets attribute for all elements */
+{
+    font-size: 14px;
+    font-family: Arial;
+}
+
+
+
+label,select  /*  sets padding and margins for form fields   */
+ {
+    padding: 5px;
+    margin: 10px;
+ }
+
+ body /* sets background colour and text colour for body    */
+ {
+
+    background-color: #CDCDCD;
+    color: #343434;
+ }
+
+ #start_button /*   sets attributes for the start button  */
+ {
+   display: inline-block;
+    width:100%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding:10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #009900;
+   
+ }
+#stop_button /*   sets attributes for the stop button  */
+ {
+   
+    display: inline-block;
+    width:100%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding:10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #990000;
+
+   
+ }
+
+ #start_button:hover, #stop_button:hover /*   sets opacity for start and stop button when they are hovered on by the mouse  */
+ {
+     opacity: 80%;
+
+ }
+
+ #counter /*   sets attributes for the counter div  */
+ {
+     margin-top:10px;
+     text-align: center;
+     font-family: "Courier","Courier New", monospace;
+     font-size:80px;
+ }
+
+
+ .start /*  helps toggles start button */
+ {
+    display:none;
+    
+ }
+
+ .stop /*  helps toggles stop button */
+ {
+    display:none;
+    
+ }
